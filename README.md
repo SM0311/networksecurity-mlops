@@ -4,50 +4,51 @@ A project for managing and securing network data efficiently. This system includ
 ## Project Structure
 
 NETWORKSECURITYSYSTEM/
-├── .github/workflows/          # GitHub Actions workflows 
 
-├── Network_Data/               # Dataset folder
+├── .github/workflows/                                              # GitHub Actions workflows 
 
-│   └── phishingData.csv        # Example dataset
+├── Network_Data/                                                   # Dataset folder
 
-├── networksecurity/            # Core project modules
+│   └── phishingData.csv                                            # Project dataset
 
-│   ├── cloud/                  # Cloud integration components
+├── networksecurity/                                                # Core project modules
 
-│   ├── components/             # Main application components
+│   ├── cloud/                                                      # Cloud integration components
 
-│   ├── constant/               # Configuration constants
+│   ├── components/                                                 # Main application components
 
-│   ├── entity/                 # Data models and entities
+│   ├── constant/                                                   # Configuration constants
 
-│   ├── exception/              # Custom exception handling
+│   ├── entity/                                                     # Data models and entities
 
-│   │   └── __init__.py
-
-│   ├── logging/                # Logging utilities
+│   ├── exception/                                                  # Custom exception handling
 
 │   │   └── __init__.py
 
-│   ├── pipeline/               # Workflow pipeline implementation
+│   ├── logging/                                                    # Logging utilities
 
 │   │   └── __init__.py
 
-│   ├── utils/                  # Helper and utility functions
+│   ├── pipeline/                                                   # Workflow pipeline implementation
+
+│   │   └── __init__.py
+
+│   ├── utils/                                                      # Helper and utility functions
 
 │   │   └── __init__.py
 
 │   └── __init__.py
 
-├── notebooks/                  # Jupyter notebooks for experimentation
+├── notebooks/                                                      # Jupyter notebooks for experimentation
 
-├── venv/                       # Virtual environment
+├── venv/                                                           # Virtual environment
 
-├── .gitignore                  # Git ignore file
+├── .gitignore                                                      # Git ignore file
 
-├── Dockerfile                  # Docker configuration
+├── Dockerfile                                                      # Docker configuration
 
-├── README.md                   # Project documentation
+├── README.md                                                       # Project documentation
 
-├── requirements.txt            # Python dependencies
+├── requirements.txt                                                # Python dependencies
 
-└── setup.py                    # Package configuration
+└── setup.py                                                        # Package configuration
